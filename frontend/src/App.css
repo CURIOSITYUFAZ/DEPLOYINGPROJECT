@@ -1,0 +1,105 @@
+ 
+  #header {
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+   
+    height: 10vh;
+    margin: auto;
+    
+  }
+  
+  ul li {
+    list-style: none;
+    margin: 5px;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #div {
+    display: flex;
+    margin: auto;
+    width: 95%;
+  }
+  
+  .mainwrapper {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+  }
+  
+  .mainwrapper .left {
+    width: 50%;
+  }
+ 
+  .mainwrapper h2 {
+      font-size: 45px;
+      font-weight: bolder;
+  }
+  .mainwrapper button {
+      margin-top: 30px;
+      background-color: red;
+  }
+  
+  
+  #recommendation {
+  width: 40%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   justify-content: center;
+   text-align: center;
+  }
+  
+  .recimg img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-size: cover;
+  }
+  
+  .recfooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    margin: auto;
+  }
+.hero2 {
+  margin-top: 100px;
+}
+
+  @media screen and (max-width: 600px) {
+    .mainwrapper {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 90%;
+    }
+    .mainwrapper .left {
+      width: 100%;
+    }
+    .mainwrapper h2 {
+      font-size: 30px;
+    }
+    .mainwrapper button {
+      margin-top: 20px;
+      background-color: red;
+    }
+    .mainwrapper img {
+        margin-top: 20px;
+    } 
+  }
+
+
+
